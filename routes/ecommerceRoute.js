@@ -11,7 +11,6 @@ const jwt = require("jsonwebtoken");
 const requireAuth = require("../middleware/authMiddleware");
 
 
-const checkPasswordValidation = require('../passwordValidator');
 
 const createToken = (id) => {
     let signature = "SoftamosChallenge_gadjjajcabdhcjadbajkvhcanhjc";
